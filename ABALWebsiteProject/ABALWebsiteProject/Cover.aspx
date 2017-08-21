@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Cover.aspx.cs" Inherits="ABALWebsiteProject.Cover" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Cover.aspx.cs" Inherits="ABALWebsiteProject.Cover" MasterPagefile="~/Site1.Master"%>
 
 <!DOCTYPE html>
 

@@ -68,6 +68,9 @@
   <ItemGroup>
     <Content Include="fonts\GeosansLight-Oblique.ttf" />
     <Content Include="fonts\GeosansLight.ttf" />
+    <Content Include="AboutUs.aspx" />
+    <Content Include="Awards.aspx" />
+    <Content Include="Approach.aspx" />
     <None Include="packages.config" />
     <Content Include="images\commericalla.jpg" />
     <Content Include="images\highrisela.jpg" />
@@ -120,6 +123,27 @@
     </Compile>
     <Compile Include="Projects.aspx.designer.cs">
       <DependentUpon>Projects.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AboutUs.aspx.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUs.aspx.designer.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Awards.aspx.cs">
+      <DependentUpon>Awards.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Awards.aspx.designer.cs">
+      <DependentUpon>Awards.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Approach.aspx.cs">
+      <DependentUpon>Approach.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Approach.aspx.designer.cs">
+      <DependentUpon>Approach.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

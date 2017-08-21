@@ -10,6 +10,6 @@
 namespace ABALWebsiteProject {
     
     
-    public partial class WebForm2 {
+    public partial class WebForm3 {
     }
 }
