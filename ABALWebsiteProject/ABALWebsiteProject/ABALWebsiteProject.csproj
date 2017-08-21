@@ -71,6 +71,7 @@
     <Content Include="AboutUs.aspx" />
     <Content Include="Awards.aspx" />
     <Content Include="Approach.aspx" />
+    <Content Include="Jobs.aspx" />
     <None Include="packages.config" />
     <Content Include="images\commericalla.jpg" />
     <Content Include="images\highrisela.jpg" />
@@ -144,6 +145,13 @@
     </Compile>
     <Compile Include="Approach.aspx.designer.cs">
       <DependentUpon>Approach.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Jobs.aspx.cs">
+      <DependentUpon>Jobs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Jobs.aspx.designer.cs">
+      <DependentUpon>Jobs.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
