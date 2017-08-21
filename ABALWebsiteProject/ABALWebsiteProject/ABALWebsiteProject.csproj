@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\bootstrap.min.css" />
     <Content Include="fonts\GeosansLight-Oblique.ttf" />
     <Content Include="fonts\GeosansLight.ttf" />
     <Content Include="AboutUs.aspx" />
@@ -76,6 +77,8 @@
     <Content Include="images\commericalla.jpg" />
     <Content Include="images\highrisela.jpg" />
     <Content Include="images\residentialla.jpg" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquery-3.2.1.min.js" />
     <Content Include="Site1.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -172,7 +175,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>51762</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:51762/</IISUrl>
+          <IISUrl>http://localhost:51760/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
