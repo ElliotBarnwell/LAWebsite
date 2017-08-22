@@ -72,6 +72,10 @@
     <Content Include="AboutUs.aspx" />
     <Content Include="Awards.aspx" />
     <Content Include="Approach.aspx" />
+    <Content Include="images\comla.png" />
+    <Content Include="images\hrla.png" />
+    <Content Include="images\logo.jpg" />
+    <Content Include="images\resla.png" />
     <Content Include="Jobs.aspx" />
     <None Include="packages.config" />
     <Content Include="images\commericalla.jpg" />

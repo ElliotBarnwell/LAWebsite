@@ -7,8 +7,9 @@
     <title>Master Page</title>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-3.2.1.min.js" ></script>
-    <link rel="stylesheet" type="text/css" href="css/ABAL.css" />
+    
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/ABAL.css" />
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <asp:ContentPlaceHolder ID="head" runat="server">
@@ -21,7 +22,9 @@
 
             <nav class="navbar navbar-inverse bg-primary">
                         <div class="navbar-header">
-                            <a class="navbar-brand" href="Home.aspx">LOGO</a>
+                            <a class="navbar-brand" href="Home.aspx">
+                                <img src="images/logo.jpg" style="height:30px; width:30px;" />
+                            </a>
                         </div>
                         <ul class="nav navbar-nav">
 
