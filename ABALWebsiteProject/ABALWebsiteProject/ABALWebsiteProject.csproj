@@ -66,23 +66,41 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\bootstrap.css" />
     <Content Include="fonts\GeosansLight-Oblique.ttf" />
     <Content Include="fonts\GeosansLight.ttf" />
     <Content Include="AboutUs.aspx" />
     <Content Include="Awards.aspx" />
     <Content Include="Approach.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="images\comla.png" />
     <Content Include="images\hrla.png" />
     <Content Include="images\logo.jpg" />
     <Content Include="images\resla.png" />
     <Content Include="Jobs.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <None Include="packages.config" />
-    <Content Include="images\commericalla.jpg" />
+    <Content Include="images\commercialla.jpg" />
     <Content Include="images\highrisela.jpg" />
     <Content Include="images\residentialla.jpg" />
-    <Content Include="js\bootstrap.min.js" />
-    <Content Include="js\jquery-3.2.1.min.js" />
+    <Content Include="js\affix.js" />
+    <Content Include="js\alert.js" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\button.js" />
+    <Content Include="js\carousel.js" />
+    <Content Include="js\collapse.js" />
+    <Content Include="js\dropdown.js" />
+    <Content Include="js\jquery-3.2.1.js" />
+    <Content Include="js\modal.js" />
+    <Content Include="js\popover.js" />
+    <Content Include="js\scrollspy.js" />
+    <Content Include="js\tab.js" />
+    <Content Include="js\tether.js" />
+    <Content Include="js\tooltip.js" />
+    <Content Include="js\transition.js" />
     <Content Include="Site1.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

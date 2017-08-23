@@ -3,8 +3,10 @@
 
 
 .jumbotron {
-text-align:center;
- }
+    text-align: center;
+    background-position: center;
+    top: 0;
+}
 .videos {
     text-align: center;
 }
@@ -21,6 +23,29 @@ text-align:center;
     left: 0;
     background: rgba(221, 221, 221, 0.75);
     position: absolute;
+    text-align:center;
+    text-decoration-color:black;
+}
+.projectgrid{
+    padding: 20px 15px 0;
+    
+}
+.buscard {
+    display: block;
+    padding: 10px 10px 10px;
+    background-color: white;
+    float: left;
+    left: 200px;
+    width:500px;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    border:double;
+    height:250px;
+}
+.row{
+    padding: 20px 10px 20px;
+
 }
 
 
@@ -68,19 +93,42 @@ td {
     }
 }
 
-img.imglink {
+.imglink {
     width: 250px;
     min-height: 450px;
-} 
+}
+.project{
+    width:200px;
+}
+.imgslide {
+    
+    width:100%;
+}
+
 
 footer{
 border-top:solid; }
 
 @font-face {
-    font-family: "GeoSans";
-    src: url('fonts/GeosansLight.ttf') format("truetype");
+    font-family: 'GeoSans';
+    src: url('fonts/GeosansLight.ttf') format('truetype');
 }
 
 p.customfont {
-    font-family: "GeoSans", Verdana, Tahoma;
+    font-family: 'GeoSans';
+    text-align:center;
+}
+.header {
+    font-family: 'GeoSans', TechnicBold;
+    font-size: 40px;
+    text-align: center;
+}
+.slogan{
+    font-family: 'GeoSans';
+
+}
+.subheader{
+    text-align:center;
+    font-family: 'GeoSans';
+    font-size:30px;
 }

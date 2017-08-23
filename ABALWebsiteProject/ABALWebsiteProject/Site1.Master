@@ -4,14 +4,29 @@
 
 <html>
 <head runat="server">
-    <title>Master Page</title>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery-3.2.1.min.js" ></script>
-    
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="css/ABAL.css" />
-    <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Master Page</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+  
+    <link rel="stylesheet" type="text/css" href="css/ABAL.css" />
+
+
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/button.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/transition.js"></script>
+    <script src="js/dropdown.js"></script>
+    <script src="js/tab.js"></script>
+    <script src="js/affix.js"></script>
+    <script src="js/alert.js"></script>
+    <script src="js/collapse.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/scrollspy.js"></script>
+    <script src="js/tooltip.js"></script>
+    <script src="js/popover.js"></script>
+    <script src="js/transition.js"></script>
+    <script src="js/bootstrap.js"></script>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -19,32 +34,44 @@
     <form id="form1" runat="server">
 
         <div class="container-fluid">
+ <nav class="navbar navbar-inverse navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="Home.aspx"><img src="images/logo.jpg" style="height: 50px; width: 50px;" /></a>
+    </div>
 
-            <nav class="navbar navbar-inverse bg-primary">
-                        <div class="navbar-header">
-                            <a class="navbar-brand" href="Home.aspx">
-                                <img src="images/logo.jpg" style="height:30px; width:30px;" />
-                            </a>
-                        </div>
-                        <ul class="nav navbar-nav">
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="Home.aspx">Home</a></li>
+        <li class="dropdown">
+          <a href="Portfolio.aspx" class="dropdown-toggle" data-toggle="dropdown">Portfolio<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="Projects.aspx">Res</a></li>
+            <li><a href="Projects.aspx">Comm</a></li>
+            <li><a href="Projects.aspx">HR</a></li>
+          </ul>
+        </li>
+          <li><a href="Approach.aspx">Approach</a></li>
+          <li><a href="AboutUs.aspx">About Us</a></li>
+          <li><a href="Awards.aspx">Awards</a></li>
+          <li><a href="Jobs.aspx">Jobs</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</div><!-- end container -->
 
-                                    
-                                    <li class="active"><a class="nav-item nav-link active" href="Home.aspx">Home</a></li>
-                                    <li class="active"><a class="nav-item nav-link" href="Projects.aspx">Portfolio</a></li>
-                                    <li class="active"><a class="nav-item nav-link" href="Approach.aspx">Approach</a></li>
-                                    <li class="active"><a class="nav-item nav-link" href="AboutUs.aspx" role="tab">About Us</a></li>
-                                    <li class="active"><a class="nav-item nav-link" href="Awards.aspx" role="tab">Awards</a></li>
-                                    <li class="active"><a class="nav-item nav-link" href="Jobs.aspx" role="tab">Jobs</a></li>
-
-                        </ul>
-                    </nav>
-                </div>
-        
-        
-        <div class="container-fluid">
-            <asp:ContentPlaceHolder ID="main" runat="server">
-                
-            </asp:ContentPlaceHolder>
+        <div class="container">
+        <asp:ContentPlaceHolder ID="main" runat="server">
+        </asp:ContentPlaceHolder>
         </div>
 
         <footer>
